@@ -20,3 +20,10 @@
 
 git clone --depth 1 --branch master https://github.com/yrestom/POS-Awesome repos/posawesome
 git clone --depth 1 --branch master https://github.com/frappe/wiki repos/wiki
+git clone --depth 1 --branch master https://github.com/frappe/erpnext-shipping repos/erpnext_shipping
+git clone --depth 1 --branch version-14 https://github.com/alyf-de/erpnext_germany repos/erpnext_germany
+git clone --depth 1 --branch master https://github.com/libracore/woocommerceconnector repos/woocommerceconnector
+git clone --depth 1 --branch main https://github.com/frappe/nextcloud-integration repos/nextcloud_integration
+
+git clone --depth 1 --branch master https://github.com/yrestom/erpnext_telegram repos/erpnext_telegram_integration
+

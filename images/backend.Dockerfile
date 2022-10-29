@@ -7,7 +7,13 @@ COPY repos ../apps
 
 USER root
 
-RUN install-app posawesome && \
-    install-app wiki
+RUN ls && install-app posawesome --verbose && \
+    install-app wiki && \
+    install-app woocommerceconnector && \
+    install-app erpnext_shipping && \
+    install-app erpnext_germany && \
+    install-app nextcloud_integration && \
+    install-app payments && \
+    install-app erpnext_telegram_integration
 
 USER frappe
