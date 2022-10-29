@@ -1,21 +1,21 @@
 variable "FRAPPE_VERSION" {
-  default = "version-14"
+  default = "v14.13.0"
 }
 
 variable "ERPNEXT_VERSION" {
-  default = "version-14"
+  default = "v14.4.0"
 }
 
 variable "REGISTRY_NAME" {
-  default = "custom_images"
+  default = "haschtl"
 }
 
 variable "BACKEND_IMAGE_NAME" {
-  default = "custom_worker"
+  default = "custom_frappe_worker"
 }
 
 variable "FRONTEND_IMAGE_NAME" {
-  default = "custom_nginx"
+  default = "custom_frappe_nginx"
 }
 
 variable "VERSION" {
